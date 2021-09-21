@@ -1,0 +1,13 @@
+#table-2 {
+  z-index: 1100;
+  position: fixed;
+  top: 10%;
+  left: 25%;
+  background-color: white;
+}
+.more-details-main {
+  margin: 2%;
+  padding: 1%;
+  border: 2px solid black;
+  width: 50%;
+}
