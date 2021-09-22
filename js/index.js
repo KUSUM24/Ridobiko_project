@@ -10,3 +10,13 @@ $(document).ready(function () {
 const closeModal = (id) => {
   $(`#${id}`).hide();
 };
+
+var conceptVal = $("#aioConceptName option").filter(":selected").val();
+console.log(conceptVal);
+
+$("#number-plate--status").on("change", function (e) {
+  var optionSelected = $("option:selected", this).val();
+  if (optionSelected == 2) {
+    $("#applied-number-plate").show();
+  }
+});

@@ -156,13 +156,18 @@
             <td>
               <select
                 class="form-select form-control"
+                id="number-plate--status"
                 aria-label="Default select example"
               >
-                <option selected>Select</option>
+                <option hidden>Select</option>
                 <option value="1">Already Have</option>
                 <option value="2">Applied</option>
               </select>
             </td>
+          </tr>
+          <tr id="applied-number-plate" style="display:none">
+            <th>Appointment Date</th>
+            <td class="bg-danger"><input type="date" value="2021-05-02"></td>
           </tr>
           <tr>
             <th scope="row">Comment</th>
