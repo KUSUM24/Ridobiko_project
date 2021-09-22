@@ -1,16 +1,16 @@
-#table-2 {
-  z-index: 1100;
-  position: fixed;
-  top: 5%;
-  left: 25%;
-  background-color: white;
-}
 .more-details-main {
+  height: 80vh;
+  overflow-y: scroll;
   margin: 2%;
   padding: 1%;
   border: 1px solid rgb(99, 98, 98);
-  width: 50%;
+  width: 70%;
   border-radius: 10px;
+  z-index: 1100;
+  position: fixed;
+  top: 5%;
+  left: 12%;
+  background-color: white;
 }
 .editable-input::before {
   border: none;
@@ -32,4 +32,12 @@
   top: 10%;
   left: 27%;
   width: 50%;
+}
+.visible-scrollbar,
+.invisible-scrollbar,
+.mostly-customized-scrollbar {
+  display: block;
+  width: 10em;
+  overflow: auto;
+  height: 2em;
 }
