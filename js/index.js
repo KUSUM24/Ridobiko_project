@@ -24,3 +24,17 @@ $("#number-plate--status").on("change", function (e) {
     $("#applied-number-plate").hide();
   }
 });
+const getServiceRecord = (sortId) => {
+  let n = 3;
+  for (let i = 1; i <= n; i++) {
+    let sortItem = document.getElementById(`sort-item-${i}`);
+    let tableNumber = document.getElementById(`service-table-${i}`);
+    if (sortId == i) {
+      sortItem.classList.add("sort-item-active");
+      tableNumber.show();
+    } else {
+      sortItem.classList.remove("sort-item-active");
+      tableNumber.style.display = "none";
+    }
+  }
+};

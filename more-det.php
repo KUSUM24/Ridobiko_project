@@ -86,7 +86,7 @@
         </tr>
       </tbody>
     </table>
-    <div class="service-modal card" id="service-modal" style="display: none">
+    <div class="service-modal card" id="service-modal" >
       <div class="card-header">
         <div class="d-flex justify-content-between">
           <div class="service-details--heading">Service Details</div>
@@ -94,11 +94,77 @@
         </div>
       </div>
       <div class="card-body">
-        <div class="service-navbar ">
-
+        <div class="service-navbar d-flex align-items-center">
+          <div>
+            Latest Records:
+          </div>
+          <div class="d-flex justify-content-around w-50">
+            <div class="sort-item sort-item-active px-2" id="sort-item-1" onclick="getServiceRecord(1)">
+              Record - 1
+            </div>
+            <div class="sort-item" id="sort-item-2" onclick="getServiceRecord(2)">
+              Record - 2
+            </div>
+            <div class="sort-item" id="sort-item-3" onclick="getServiceRecord(3)">
+              Record - 3
+            </div>
+          </div>
         </div>
-        <table class="table">
+        <hr class="hr-service">
+        <table class="table" id="service-table-1">
           <tbody>
+            <tr>
+              <th>Service Date 1</th>
+              <td class="bg-secondary"><input type="date" value="2021-04-05"></td>
+            </tr>
+            <tr>
+              <th>Cost</th>
+              <td>1,500</td>
+            </tr>
+            <tr>
+              <th>Work Done</th>
+              <td>Lorem ipsum dolor sit.</td>
+            </tr>
+            <tr>
+              <th>Type of service</th>
+              <td>Bike servicing</td>
+            </tr>
+            <tr>
+              <th>KM run</th>
+              <td>40km</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="table" id="service-table-2">
+          <tbody>
+            <tr>
+              <th>Service Date 2</th>
+              <td class="bg-secondary"><input type="date" value="2021-04-05"></td>
+            </tr>
+            <tr>
+              <th>Cost</th>
+              <td>1,500</td>
+            </tr>
+            <tr>
+              <th>Work Done</th>
+              <td>Lorem ipsum dolor sit.</td>
+            </tr>
+            <tr>
+              <th>Type of service</th>
+              <td>Bike servicing</td>
+            </tr>
+            <tr>
+              <th>KM run</th>
+              <td>40km</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="table" id="service-table-3">
+          <tbody>
+            <tr>
+              <th>Service Date 3</th>
+              <td class="bg-secondary"><input type="date" value="2021-04-05"></td>
+            </tr>
             <tr>
               <th>Cost</th>
               <td>1,500</td>
