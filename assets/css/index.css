@@ -8,8 +8,9 @@
 .more-details-main {
   margin: 2%;
   padding: 1%;
-  border: 2px solid black;
+  border: 1px solid rgb(99, 98, 98);
   width: 50%;
+  border-radius: 10px;
 }
 .editable-input::before {
   border: none;
@@ -25,4 +26,10 @@
 }
 .comment-input {
   width: 100% !important;
+}
+.service-modal {
+  position: fixed;
+  top: 10%;
+  left: 27%;
+  width: 50%;
 }

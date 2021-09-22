@@ -11,6 +11,9 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <link href="bootstrap/js/bootstrap.min.js" rel="stylesheet" media="screen">
+    <link href="bootstrap/js/bootstrap-modal.js" rel="stylesheet" media="screen">
+    <link href="bootstrap/js/bootstrap-transition.js" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="assets/css/index.css" />
   </head>
   <body>
@@ -119,7 +122,14 @@
           </tr>
           <tr>
             <th scope="row">Service Details</th>
-            <td>Popup</td>
+            <td>
+              <button
+                class="btn btn-primary"
+                id="trigger-service--btn"
+              >
+                Check Details
+              </button>
+            </td>
           </tr>
           <tr>
             <th scope="row">Insurance Expiry</th>
@@ -144,7 +154,10 @@
           <tr>
             <th scope="row">High Security Number Plate</th>
             <td>
-              <select class="form-select form-control" aria-label="Default select example">
+              <select
+                class="form-select form-control"
+                aria-label="Default select example"
+              >
                 <option selected>Select</option>
                 <option value="1">Already Have</option>
                 <option value="2">Applied</option>
@@ -153,7 +166,13 @@
           </tr>
           <tr>
             <th scope="row">Comment</th>
-            <td><input class="comment-input form-control" type="text" value="Lorem ipsum dolor sit amet." /></td>
+            <td>
+              <input
+                class="comment-input form-control"
+                type="text"
+                value="Lorem ipsum dolor sit amet."
+              />
+            </td>
           </tr>
           <tr>
             <th scope="row">SMS Trigger</th>
@@ -161,7 +180,36 @@
           </tr>
         </tbody>
       </table>
-    </div>
+      <div class="service-modal card" id="service-modal" >
+        <div class="card-header">
+          <div class="d-flex justify-content-between">
+            <div>Service Details</div>
+            <div class="close" onclick="closeModal('service-modal')">x</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>Cost</th>
+                <td>1,500</td>
+              </tr>
+              <tr>
+                <th>Work Done</th>
+                <td>Lorem ipsum dolor sit.</td>
+              </tr>
+              <tr>
+                <th>Type of service</th>
+                <td>Bike servicing</td>
+              </tr>
+              <tr>
+                <th>KM run</th>
+                <td>40km</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
