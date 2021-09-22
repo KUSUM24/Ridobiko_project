@@ -18,5 +18,9 @@ $("#number-plate--status").on("change", function (e) {
   var optionSelected = $("option:selected", this).val();
   if (optionSelected == 2) {
     $("#applied-number-plate").show();
+    $("#already-number-plate").hide();
+  } else {
+    $("#already-number-plate").show();
+    $("#applied-number-plate").hide();
   }
 });

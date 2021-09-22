@@ -169,6 +169,10 @@
             <th>Appointment Date</th>
             <td class="bg-danger"><input type="date" value="2021-05-02"></td>
           </tr>
+          <tr id="already-number-plate" style="display:none">
+            <th>Number Plate</th>
+            <td class="bg-success text-white">You Have Already Received the High Security Number Plate</td>
+          </tr>
           <tr>
             <th scope="row">Comment</th>
             <td>
