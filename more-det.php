@@ -9,7 +9,7 @@
         <tr>
           <th scope="row" id="helmet-number">Number of Helmets</th>
           <td>
-            <input class="editable-input form-control" type="text" value="2" />
+            NA
           </td>
         </tr>
         <tr>
@@ -26,22 +26,22 @@
         <tr>
           <th scope="row">Insurance Expiry</th>
           <td class="bg-danger text-white">
-            <input type="date" value="2021-12-09" />
+            2021-12-09
           </td>
         </tr>
         <tr>
           <th scope="row">Pollution Expiry</th>
-          <td class="bg-warning"><input type="date" value="2021-12-09" /></td>
+          <td class="bg-warning">2021-12-09</td>
         </tr>
         <tr>
           <th scope="row">Fitness Expiry</th>
           <td class="bg-success text-white">
-            <input type="date" value="2021-12-09" />
+            2021-12-09
           </td>
         </tr>
         <tr>
           <th scope="row">Permit Expiry</th>
-          <td class="bg-warning"><input type="date" value="2021-12-09" /></td>
+          <td class="bg-warning">2021-12-09</td>
         </tr>
         <tr>
           <th scope="row">High Security Number Plate</th>
@@ -79,7 +79,10 @@
         </tr>
         <tr>
           <th scope="row">SMS Trigger</th>
-          <td>sms</td>
+          <td>
+            <button class="btn btn-primary">Button</button>
+            <button class="btn btn-success">Send SMS</button>
+          </td>
         </tr>
       </tbody>
     </table>
@@ -91,6 +94,9 @@
         </div>
       </div>
       <div class="card-body">
+        <div class="service-navbar ">
+
+        </div>
         <table class="table">
           <tbody>
             <tr>
