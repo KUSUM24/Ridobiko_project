@@ -111,7 +111,7 @@
       <table class="table">
         <tbody>
           <tr>
-            <th scope="row">Number of Helmets</th>
+            <th scope="row" id="helmet-number">Number of Helmets</th>
             <td>
               <input
                 class="editable-input form-control"
@@ -123,12 +123,12 @@
           <tr>
             <th scope="row">Service Details</th>
             <td>
-              <button
-                class="btn btn-primary"
+              <div
+                class="service-details-btn btn btn-primary"
                 id="trigger-service--btn"
               >
                 Check Details
-              </button>
+              </div>
             </td>
           </tr>
           <tr>
@@ -180,7 +180,7 @@
           </tr>
         </tbody>
       </table>
-      <div class="service-modal card" id="service-modal" >
+      <div class="service-modal card" id="service-modal" style="display:none">
         <div class="card-header">
           <div class="d-flex justify-content-between">
             <div>Service Details</div>
