@@ -153,7 +153,7 @@
           </tr>
           <tr>
             <th scope="row">Comment</th>
-            <td><input class="form-control" type="text" value="Lorem ipsum dolor sit amet." /></td>
+            <td><input class="comment-input form-control" type="text" value="Lorem ipsum dolor sit amet." /></td>
           </tr>
           <tr>
             <th scope="row">SMS Trigger</th>
