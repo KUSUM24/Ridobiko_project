@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="assets/css/index.css" />
   </head>
   <body>
+    <!-- Header  -->
+    <?php
+      include('common/header.html');
+    ?>
     <!-- <div class="d-flex align-items-start"> -->
     <table class="table" id="table-1">
       <thead class="thead-dark">
@@ -140,7 +144,7 @@
           <tr>
             <th scope="row">High Security Number Plate</th>
             <td>
-              <select class="form-select" aria-label="Default select example">
+              <select class="form-select form-control" aria-label="Default select example">
                 <option selected>Select</option>
                 <option value="1">Already Have</option>
                 <option value="2">Applied</option>
@@ -149,7 +153,7 @@
           </tr>
           <tr>
             <th scope="row">Comment</th>
-            <td><input type="text" value="Lorem ipsum dolor sit amet." /></td>
+            <td><input class="form-control" type="text" value="Lorem ipsum dolor sit amet." /></td>
           </tr>
           <tr>
             <th scope="row">SMS Trigger</th>
@@ -158,77 +162,6 @@
         </tbody>
       </table>
     </div>
-    <!-- <table class="table" id="table-2" style="display: none">
-        <thead class="thead-dark">
-          <tr>
-          <th scope="col">Number of Helmets</th>
-          <th scope="col">Service Details</th>
-          <th scope="col">Insurance Expiry</th>
-          <th scope="col">Pollution Expiry</th>
-          <th scope="col">Fitness Expiry</th>
-          <th scope="col">Permit Expiry</th>
-          <th scope="col">Number Plate</th>
-          <th scope="col">Comment</th>
-          <th scope="col">SMS Trigger</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td scope="row">2</td>
-          <td>Dropdown</td>
-          <td class="bg-danger">14-09-2021</td>
-          <td class="bg-warning">28-09-2021</td>
-          <td class="bg-success">15-10-2021</td>
-          <td class="bg-warning">25-09-2021</td>
-          <td>
-            <select class="form-select" aria-label="Default select example">
-              <option selected>Select</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-          </td>
-          <td>Lorem ipsum, dolor sit amet</td>
-          <td>active</td>
-        </tr>
-        <tr>
-          <td scope="row">2</td>
-          <td>Dropdown</td>
-          <td class="bg-warning">28-09-2021</td>
-          <td class="bg-danger">14-09-2021</td>
-          <td class="bg-warning">25-09-2021</td>
-          <td class="bg-success">15-10-2021</td>
-          <td>
-            <select class="form-select" aria-label="Default select example">
-              <option selected>Select</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-          </td>
-          <td>Lorem ipsum, dolor sit amet</td>
-          <td>active</td>
-        </tr>
-        <tr>
-          <td scope="row">2</td>
-          <td>Dropdown</td>
-          <td class="bg-warning">28-09-2021</td>
-          <td class="bg-success">15-10-2021</td>
-          <td class="bg-danger">14-09-2021</td>
-          <td class="bg-warning">25-09-2021</td>
-          <td>
-            <select class="form-select" aria-label="Default select example">
-              <option selected>Select</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-          </td>
-          <td>Lorem ipsum, dolor sit amet</td>
-          <td>active</td>
-        </tr>
-      </tbody>
-    </table> -->
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
