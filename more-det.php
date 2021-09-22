@@ -86,7 +86,7 @@
     <div class="service-modal card" id="service-modal" style="display: none">
       <div class="card-header">
         <div class="d-flex justify-content-between">
-          <div>Service Details</div>
+          <div class="service-details--heading">Service Details</div>
           <div class="close" onclick="closeModal('service-modal')">x</div>
         </div>
       </div>
