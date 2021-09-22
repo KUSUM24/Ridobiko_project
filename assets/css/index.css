@@ -5,12 +5,12 @@
   padding: 1%;
   border: 1px solid rgb(99, 98, 98);
   width: 70%;
-  border-radius: 10px;
   z-index: 1100;
   position: fixed;
   top: 5%;
   left: 12%;
   background-color: white;
+  box-shadow: -5px 5px 15px 0px rgb(180, 180, 182);
 }
 .editable-input::before {
   border: none;
@@ -40,4 +40,14 @@
   width: 10em;
   overflow: auto;
   height: 2em;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: rgb(211, 210, 210); /* or add it to the track */
+}
+
+/* Add a thumb */
+::-webkit-scrollbar-thumb {
+  background: rgb(124, 124, 124);
 }
