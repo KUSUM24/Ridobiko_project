@@ -86,7 +86,7 @@
         </tr>
       </tbody>
     </table>
-    <div class="service-modal card" id="service-modal" >
+    <div class="service-modal card" id="service-modal" style="display:none">
       <div class="card-header">
         <div class="d-flex justify-content-between">
           <div class="service-details--heading">Service Details</div>
