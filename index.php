@@ -19,35 +19,39 @@
     <?php
       include('common/header.html');
     ?>
-    <!-- <div class="d-flex align-items-start"> -->
+    <div class="d-flex">
+    <div class="sidebar w-25 bg-secondary"><div class="text-center text-white">SIDEBAR</div></div>
     <table class="table" id="table-1">
       <thead class="thead-dark">
         <tr>
-          <th scope="col">Bike Number</th>
-          <th scope="col">Bike Name</th>
-          <th scope="col">Customer Name</th>
-          <th scope="col">Customer Mobile</th>
+          <th scope="col">Bike Details</th>
+          <th scope="col">Customer Details</th>
           <th scope="col">Order ID</th>
           <th scope="col">Start Date</th>
           <th scope="col">End Date</th>
           <th scope="col">Rent</th>
-          <th scope="col">Pickup Status</th>
-          <th scope="col">Drop Status</th>
+          <th scope="col">Pickup and Drop Status</th>
           <th scope="col">Details</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td scope="row">MH 05 9854</td>
-          <td>Activa</td>
-          <td>Rajat</td>
-          <td>6786786788</td>
+          <td scope="row">
+            <div>Activa</div>
+            <div>MH 05 9854</div>
+          </td>
+          <td>
+            <div>Rajat</div>
+            <div>6786786788</div>
+          </td>
           <td>#6764hfbhjh57</td>
           <td>21-09-2021</td>
           <td>21-10-2021</td>
           <td>3500</td>
-          <td>Done</td>
-          <td>Not Done</td>
+          <td>
+            <div>Pickup - <span>Done</span></div>
+            <div>Drop - <span>Not Done</span></div>
+          </td>
           <td>
             <button
               class="btn btn-primary more-details-btn"
@@ -58,16 +62,22 @@
           </td>
         </tr>
         <tr>
-          <td scope="row">MH 05 9854</td>
-          <td>Activa</td>
-          <td>Rajat</td>
-          <td>6786786788</td>
+          <td scope="row">
+            <div>Activa</div>
+            <div>MH 05 9854</div>
+          </td>
+          <td>
+            <div>Rajat</div>
+            <div>6786786788</div>
+          </td>
           <td>#6764hfbhjh57</td>
           <td>21-09-2021</td>
           <td>21-10-2021</td>
           <td>3500</td>
-          <td>Done</td>
-          <td>Not Done</td>
+          <td>
+            <div>Pickup - <span>Done</span></div>
+            <div>Drop - <span>Not Done</span></div>
+          </td>
           <td>
             <button
               class="btn btn-primary more-details-btn"
@@ -78,16 +88,22 @@
           </td>
         </tr>
         <tr>
-          <td scope="row">MH 05 9854</td>
-          <td>Activa</td>
-          <td>Rajat</td>
-          <td>6786786788</td>
+          <td scope="row">
+            <div>Activa</div>
+            <div>MH 05 9854</div>
+          </td>
+          <td>
+            <div>Rajat</div>
+            <div>6786786788</div>
+          </td>
           <td>#6764hfbhjh57</td>
           <td>21-09-2021</td>
           <td>21-10-2021</td>
           <td>3500</td>
-          <td>Done</td>
-          <td>Not Done</td>
+          <td>
+            <div>Pickup - <span>Done</span></div>
+            <div>Drop - <span>Not Done</span></div>
+          </td>
           <td>
             <button
               class="btn btn-primary more-details-btn"
@@ -99,8 +115,8 @@
         </tr>
       </tbody>
     </table>
-    <!-- </div> -->
-    <hr class="w-100" />
+    </div>
+    <!-- <hr class="w-100" /> -->
     <?php
       include('more-det.php');
     ?>
