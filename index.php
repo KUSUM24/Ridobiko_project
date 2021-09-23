@@ -45,8 +45,14 @@
             <div>6786786788</div>
           </td>
           <td>#6764hfbhjh57</td>
-          <td>21-09-2021</td>
-          <td>21-10-2021</td>
+          <td>
+            <div>21-10-2021</div>
+            <div>00:00:00</div>
+          </td>
+          <td>
+            <div>21-10-2021</div>
+            <div>00:00:00</div>
+          </td>
           <td>3500</td>
           <td>
             <div>Pickup - <span>Done</span></div>
@@ -71,8 +77,14 @@
             <div>6786786788</div>
           </td>
           <td>#6764hfbhjh57</td>
-          <td>21-09-2021</td>
-          <td>21-10-2021</td>
+          <td>
+            <div>21-10-2021</div>
+            <div>00:00:00</div>
+          </td>
+          <td>
+            <div>21-10-2021</div>
+            <div>00:00:00</div>
+          </td>
           <td>3500</td>
           <td>
             <div>Pickup - <span>Done</span></div>
@@ -97,8 +109,14 @@
             <div>6786786788</div>
           </td>
           <td>#6764hfbhjh57</td>
-          <td>21-09-2021</td>
-          <td>21-10-2021</td>
+          <td>
+            <div>21-10-2021</div>
+            <div>00:00:00</div>
+          </td>
+          <td>
+            <div>21-10-2021</div>
+            <div>00:00:00</div>
+          </td>
           <td>3500</td>
           <td>
             <div>Pickup - <span>Done</span></div>
@@ -116,7 +134,6 @@
       </tbody>
     </table>
     </div>
-    <!-- <hr class="w-100" /> -->
     <?php
       include('more-det.php');
     ?>
