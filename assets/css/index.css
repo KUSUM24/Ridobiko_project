@@ -67,3 +67,9 @@
 .hr-service {
   margin-top: -1px;
 }
+.vendor-name {
+  font-size: 120%;
+}
+.inactive-table {
+  display: none;
+}

@@ -135,7 +135,7 @@
             </tr>
           </tbody>
         </table>
-        <table class="table" id="service-table-2">
+        <table class="table" id="service-table-2" style="display:none">
           <tbody>
             <tr>
               <th>Service Date 2</th>
@@ -159,7 +159,7 @@
             </tr>
           </tbody>
         </table>
-        <table class="table" id="service-table-3">
+        <table class="table" id="service-table-3" style="display:none">
           <tbody>
             <tr>
               <th>Service Date 3</th>

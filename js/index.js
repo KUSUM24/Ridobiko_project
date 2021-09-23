@@ -28,13 +28,13 @@ const getServiceRecord = (sortId) => {
   let n = 3;
   for (let i = 1; i <= n; i++) {
     let sortItem = document.getElementById(`sort-item-${i}`);
-    let tableNumber = document.getElementById(`service-table-${i}`);
+    let displayTable = document.getElementById(`service-table-${i}`);
     if (sortId == i) {
       sortItem.classList.add("sort-item-active");
-      tableNumber.show();
+      displayTable.style.display = "table";
     } else {
       sortItem.classList.remove("sort-item-active");
-      tableNumber.style.display = "none";
+      displayTable.style.display = "none";
     }
   }
 };
