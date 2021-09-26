@@ -73,3 +73,7 @@
 .inactive-table {
   display: none;
 }
+.logout-btn {
+  font-size: 110%;
+  font-weight: 600;
+}
