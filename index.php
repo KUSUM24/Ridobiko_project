@@ -55,8 +55,40 @@
           </td>
           <td>3500</td>
           <td>
-            <div>Pickup - <span>Done</span></div>
-            <div>Drop - <span>Not Done</span></div>
+            <div>Pickup - <span class="text-success">Done</span></div>
+            <div>Drop - <span class="text-danger">Not Done</span></div>
+          </td>
+          <td>
+            <button
+              class="btn btn-primary more-details-btn"
+              id="more-details-btn"
+            >
+              More Details
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td scope="row">
+            <div>Activa</div>
+            <div>MH 05 9854</div>
+          </td>
+          <td>
+            <div>Rajat</div>
+            <div>6786786788</div>
+          </td>
+          <td>#6764hfbhjh57</td>
+          <td class="text-warning">
+            <div>21-10-2021</div>
+            <div>00:00:00</div>
+          </td>
+          <td class="text-success">
+            <div>21-10-2021</div>
+            <div>00:00:00</div>
+          </td>
+          <td>3500</td>
+          <td>
+            <div>Pickup - <span class="text-danger">Not Done</span></div>
+            <div>Drop - <span class="text-success">Done</span></div>
           </td>
           <td>
             <button
@@ -87,40 +119,8 @@
           </td>
           <td>3500</td>
           <td>
-            <div>Pickup - <span>Done</span></div>
-            <div>Drop - <span>Not Done</span></div>
-          </td>
-          <td>
-            <button
-              class="btn btn-primary more-details-btn"
-              id="more-details-btn"
-            >
-              More Details
-            </button>
-          </td>
-        </tr>
-        <tr>
-          <td scope="row">
-            <div>Activa</div>
-            <div>MH 05 9854</div>
-          </td>
-          <td>
-            <div>Rajat</div>
-            <div>6786786788</div>
-          </td>
-          <td>#6764hfbhjh57</td>
-          <td>
-            <div>21-10-2021</div>
-            <div>00:00:00</div>
-          </td>
-          <td>
-            <div>21-10-2021</div>
-            <div>00:00:00</div>
-          </td>
-          <td>3500</td>
-          <td>
-            <div>Pickup - <span>Done</span></div>
-            <div>Drop - <span>Not Done</span></div>
+            <div>Pickup - <span class="text-success">Done</span></div>
+            <div>Drop - <span class="text-danger">Not Done</span></div>
           </td>
           <td>
             <button
